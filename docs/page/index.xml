@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Pwn-Eat-Sleep-Repeat</title>
+    <link>https://aazim-yaswant.github.io/page/</link>
+    <description>Recent content in Pages on Pwn-Eat-Sleep-Repeat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>aazimcr@gmail.com (Aazim Bill SE Yaswant)</managingEditor>
+    <webMaster>aazimcr@gmail.com (Aazim Bill SE Yaswant)</webMaster>
+    
+	<atom:link href="https://aazim-yaswant.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About me</title>
+      <link>https://aazim-yaswant.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/page/about/</guid>
+      <description>Pwn-Eat-Sleep-Repeat 
+I am Aazim Bill SE Yaswant, also known as &amp;lsquo;h3rucl35&amp;rsquo;.
+I am doing my Undergraduate in Computer Science at Indian Institute of Technology(IIT), Roorkee.
+My major field of interest is Information Security and have started taking part in Capture The Flag competitions from 2017 with my team InfoSecIITR.
+When I started my B.Tech as a fresher, a single interaction with Jay Bosamiya, my mentor made me fall in never-ending love with Information Security.</description>
+    </item>
+    
+  </channel>
+</rss>

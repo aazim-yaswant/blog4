@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pwn-Eat-Sleep-Repeat</title>
+    <link>https://aazim-yaswant.github.io/</link>
+    <description>Recent content on Pwn-Eat-Sleep-Repeat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>aazimcr@gmail.com (Aazim Bill SE Yaswant)</managingEditor>
+    <webMaster>aazimcr@gmail.com (Aazim Bill SE Yaswant)</webMaster>
+    <lastBuildDate>Mon, 20 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://aazim-yaswant.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bugs_Bunny CTF 2017 -Pwn50</title>
+      <link>https://aazim-yaswant.github.io/post/2017-08-15-bugs_bunny-ctf-%5Cpwn50/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2017-08-15-bugs_bunny-ctf-%5Cpwn50/</guid>
+      <description>Hello guys, Welcome to my first writeup.
+challenge: pwn50
+we are given a binary and asked to pwn.
+My general procedure is to examine for BOF, FSB.
+First i run the binary
+Then use objdump to see the functions and the calls
+Then use gdb-peda to analyse the flow and registers and stacks.
+Now, lets examine it.
+ file pwn50 :   strings pwn50 :   checksec pwn50 :  Information gathered:</description>
+    </item>
+    
+    <item>
+      <title>Bugs_Bunny CTF 2017 -Pwn150</title>
+      <link>https://aazim-yaswant.github.io/post/2017-03-07-bugs_bunny-ctf-pwn150/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2017-03-07-bugs_bunny-ctf-pwn150/</guid>
+      <description>Hello guys, This writeup is for _ the bugs_bunny CTF 2017 _ pwn series.
+challenge: pwn150
+first 3 steps:
+ file :   strings :   checksec :  Informations Gathered:
+&amp;nbsp; Its a 64-bit binary with NX enabled and the elf contains &amp;quot;/bin/date&amp;quot; and a call to system()
+&amp;nbsp; Two functions other than main: Hello and today.
+why it matters:
+* 64-bit : Parameters have to be passed in registers.</description>
+    </item>
+    
+    <item>
+      <title>Bugs_Bunny CTF 2017 -Pwn200</title>
+      <link>https://aazim-yaswant.github.io/post/2017-03-05-bugs_bunny-ctf-pwn200/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2017-03-05-bugs_bunny-ctf-pwn200/</guid>
+      <description>Hi guys, this writeup is for the _ bugs_bunny CTF 2017 pwn series _.
+challenge: pwn200
+The traditional three steps:
+1. file
+2. strings:
+3. checksec:
+ Information gathered:
+&amp;nbsp;pwn200 is a 32-bit binary and has no Security measures enabled. Not even NX, which enables Shellcode Injection. &amp;nbsp;LIBC functions read and puts are used in ELF.
+Now, we run the binary:
+./pwn200  Guys, please dont make all challenges on Buffer Overflows</description>
+    </item>
+    
+    <item>
+      <title>Code Sample</title>
+      <link>https://aazim-yaswant.github.io/post/2016-03-08-code-sample/</link>
+      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2016-03-08-code-sample/</guid>
+      <description>&lt;p&gt;The following are two code samples using syntax highlighting.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Flake it till you make it</title>
+      <link>https://aazim-yaswant.github.io/post/2015-02-26-flake-it-till-you-make-it/</link>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2015-02-26-flake-it-till-you-make-it/</guid>
+      <description>Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?</description>
+    </item>
+    
+    <item>
+      <title>Test markdown</title>
+      <link>https://aazim-yaswant.github.io/post/2015-02-20-test-markdown/</link>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2015-02-20-test-markdown/</guid>
+      <description>You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it&amp;rsquo;ll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Here is some bold text
+Here is a secondary heading Here&amp;rsquo;s a useless table:
+   Number Next number Previous number     Five Six Four   Ten Eleven Nine   Seven Eight Six   Two Three One    How about a yummy crepe?</description>
+    </item>
+    
+    <item>
+      <title>To be</title>
+      <link>https://aazim-yaswant.github.io/post/2015-02-13-hamlet-monologue/</link>
+      <pubDate>Fri, 13 Feb 2015 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2015-02-13-hamlet-monologue/</guid>
+      <description>To be, or not to be&amp;ndash;that is the question: Whether &amp;lsquo;tis nobler in the mind to suffer The slings and arrows of outrageous fortune Or to take arms against a sea of troubles And by opposing end them. To die, to sleep&amp;ndash; No more&amp;ndash;and by a sleep to say we end The heartache, and the thousand natural shocks That flesh is heir to. &amp;lsquo;Tis a consummation Devoutly to be wished. To die, to sleep&amp;ndash; To sleep&amp;ndash;perchance to dream: ay, there&amp;rsquo;s the rub, For in that sleep of death what dreams may come When we have shuffled off this mortal coil, Must give us pause.</description>
+    </item>
+    
+    <item>
+      <title>Dear diary</title>
+      <link>https://aazim-yaswant.github.io/post/2015-01-27-dear-diary/</link>
+      <pubDate>Tue, 27 Jan 2015 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2015-01-27-dear-diary/</guid>
+      <description>What is it with that Mary girl? Dragging me to school every day. As if I had a choice. What you don&amp;rsquo;t hear in those nursery rhymes is that she starves me if I don&amp;rsquo;t go to school with her; it&amp;rsquo;s the only way I can stay alive! I&amp;rsquo;m thinking about being adopted by Little Bo Peep, sure I may get lost, but anything is better than being with Mary and those little brats at school (shudder, shudder).</description>
+    </item>
+    
+    <item>
+      <title>Soccer</title>
+      <link>https://aazim-yaswant.github.io/post/2015-01-19-soccer/</link>
+      <pubDate>Mon, 19 Jan 2015 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2015-01-19-soccer/</guid>
+      <description>From Wikipedia:
+Association football, more commonly known as football or soccer,[2] is a sport played between two teams of eleven players with a spherical ball. It is played by 250 million players in over 200 countries, making it the world&amp;rsquo;s most popular sport.[3][4][5][6] The game is played on a rectangular field with a goal at each end. The object of the game is to score by getting the ball into the opposing goal.</description>
+    </item>
+    
+    <item>
+      <title>Pirates arrrr</title>
+      <link>https://aazim-yaswant.github.io/post/2015-01-15-pirates/</link>
+      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2015-01-15-pirates/</guid>
+      <description>Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the perpetrator (e.g. one passenger stealing from others on the same vessel). The term has been used throughout history to refer to raids across land borders by non-state agents.</description>
+    </item>
+    
+    <item>
+      <title>First post!</title>
+      <link>https://aazim-yaswant.github.io/post/2015-01-04-first-post/</link>
+      <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2015-01-04-first-post/</guid>
+      <description>This is my first post, how exciting!</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://aazim-yaswant.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/page/about/</guid>
+      <description>Pwn-Eat-Sleep-Repeat 
+I am Aazim Bill SE Yaswant, also known as &amp;lsquo;h3rucl35&amp;rsquo;.
+I am doing my Undergraduate in Computer Science at Indian Institute of Technology(IIT), Roorkee.
+My major field of interest is Information Security and have started taking part in Capture The Flag competitions from 2017 with my team InfoSecIITR.
+When I started my B.Tech as a fresher, a single interaction with Jay Bosamiya, my mentor made me fall in never-ending love with Information Security.</description>
+    </item>
+    
+  </channel>
+</rss>

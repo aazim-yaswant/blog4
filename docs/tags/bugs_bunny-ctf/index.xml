@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bugs_bunny Ctf on Pwn-Eat-Sleep-Repeat</title>
+    <link>https://aazim-yaswant.github.io/tags/bugs_bunny-ctf/</link>
+    <description>Recent content in Bugs_bunny Ctf on Pwn-Eat-Sleep-Repeat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>aazimcr@gmail.com (Aazim Bill SE Yaswant)</managingEditor>
+    <webMaster>aazimcr@gmail.com (Aazim Bill SE Yaswant)</webMaster>
+    <lastBuildDate>Mon, 20 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://aazim-yaswant.github.io/tags/bugs_bunny-ctf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bugs_Bunny CTF 2017 -Pwn50</title>
+      <link>https://aazim-yaswant.github.io/post/2017-08-15-bugs_bunny-ctf-%5Cpwn50/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2017-08-15-bugs_bunny-ctf-%5Cpwn50/</guid>
+      <description>Hello guys, Welcome to my first writeup.
+challenge: pwn50
+we are given a binary and asked to pwn.
+My general procedure is to examine for BOF, FSB.
+First i run the binary
+Then use objdump to see the functions and the calls
+Then use gdb-peda to analyse the flow and registers and stacks.
+Now, lets examine it.
+ file pwn50 :   strings pwn50 :   checksec pwn50 :  Information gathered:</description>
+    </item>
+    
+    <item>
+      <title>Bugs_Bunny CTF 2017 -Pwn150</title>
+      <link>https://aazim-yaswant.github.io/post/2017-03-07-bugs_bunny-ctf-pwn150/</link>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2017-03-07-bugs_bunny-ctf-pwn150/</guid>
+      <description>Hello guys, This writeup is for _ the bugs_bunny CTF 2017 _ pwn series.
+challenge: pwn150
+first 3 steps:
+ file :   strings :   checksec :  Informations Gathered:
+&amp;nbsp; Its a 64-bit binary with NX enabled and the elf contains &amp;quot;/bin/date&amp;quot; and a call to system()
+&amp;nbsp; Two functions other than main: Hello and today.
+why it matters:
+* 64-bit : Parameters have to be passed in registers.</description>
+    </item>
+    
+    <item>
+      <title>Bugs_Bunny CTF 2017 -Pwn200</title>
+      <link>https://aazim-yaswant.github.io/post/2017-03-05-bugs_bunny-ctf-pwn200/</link>
+      <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
+      <author>aazimcr@gmail.com (Aazim Bill SE Yaswant)</author>
+      <guid>https://aazim-yaswant.github.io/post/2017-03-05-bugs_bunny-ctf-pwn200/</guid>
+      <description>Hi guys, this writeup is for the _ bugs_bunny CTF 2017 pwn series _.
+challenge: pwn200
+The traditional three steps:
+1. file
+2. strings:
+3. checksec:
+ Information gathered:
+&amp;nbsp;pwn200 is a 32-bit binary and has no Security measures enabled. Not even NX, which enables Shellcode Injection. &amp;nbsp;LIBC functions read and puts are used in ELF.
+Now, we run the binary:
+./pwn200  Guys, please dont make all challenges on Buffer Overflows</description>
+    </item>
+    
+  </channel>
+</rss>
